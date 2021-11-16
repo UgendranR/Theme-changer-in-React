@@ -1,0 +1,225 @@
+.Theme1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+
+
+
+
+.Theme1 button{
+
+    background-image: linear-gradient(to right, pink, yellow ); 
+    background-clip: text;
+    color: transparent;
+    font: 5em sans-serif;
+
+}
+
+
+.Theme2{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffff00;
+    
+
+}
+
+
+
+
+.Theme2 button{
+
+    background-image: linear-gradient(to right, rgb(36, 33, 35), rgb(212, 212, 204) ); 
+    background-clip: text;
+    color: transparent;
+    font: 5em sans-serif;
+
+}
+
+
+
+.contact-me:hover
+{
+     
+    color: hotpink;
+    font: 5em sans-serif;
+ 
+    box-shadow: 0 0 50px lightpink, 0 0 40px  lightpink, 0 0 80px lightpink; 
+    transition-delay: 1s;} 
+
+.contact-me span
+{position: absolute;
+ display: block;}
+
+
+.contact-me span:nth-child(1)
+{
+ 
+top: 0;
+width: 100%;
+Left: -100%; 
+background: linear-gradient (90deg, transparent, lightpink);
+background-color:lightpink;
+height: 2px;
+
+} 
+
+.contact-me:hover span:nth-child(1)  {
+Left: 100%; 
+ transition: .1s;
+ transition-property: 0s;
+}
+.contact-me span:nth-child(3)
+{
+bottom: 0;
+width: 100%;
+right: -100%; 
+background: linear-gradient (270deg, transparent, lightpink);
+background-color:lightpink ;
+height: 2px;
+} 
+
+.contact-me :hover span:nth-child(3)  {
+right: 100%; 
+ transition: 1s;
+ transition-delay: 0.1s;
+}
+
+.contact-me span:nth-child(2)
+{
+top:-100%;
+width: 2px;
+right: 0; 
+background: linear-gradient (180deg, transparent, lightpink);
+background-color:lightpink ;
+height: 100%;
+} 
+
+.contact-me:hover span:nth-child(2)  {
+    top: 100%; 
+ transition: 1s;
+ transition-delay: 0.1s;
+}
+
+.contact-me span:nth-child(4)
+{
+bottom:-100%;
+width: 2px;
+left: 0; 
+background: linear-gradient (360deg, transparent, lightpink);
+background-color:lightpink ;
+height: 100%;
+} 
+
+.contact-me:hover span:nth-child(4)  {
+bottom: 100%; 
+ transition: 1s;
+ transition-delay: 0.2s;
+} 
+
+.contact-me{
+    color: hotpink;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: 0.2s;
+    padding:15px 30px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: lavender;
+
+}
+
+
+
+/*Theme2*/
+
+
+
+.Theme2 .contact-me:hover
+{
+     
+    color: rgb(0, 0, 0);
+    font: 5em sans-serif;
+    box-shadow: 0 0 50px rgb(0, 0, 0), 0 0 40px  rgb(0, 0, 0), 0 0 80px rgb(0, 0, 0); 
+    transition-delay: 1s;} 
+
+ .Theme2 .contact-me span
+{position: absolute;
+ display: block;}
+
+
+ .Theme2 .contact-me span:nth-child(1)
+{
+ 
+top: 0;
+width: 100%;
+Left: -100%; 
+background: linear-gradient (90deg, transparent, rgb(0, 0, 0));
+background-color:rgb(0, 0, 0);
+height: 2px;
+
+} 
+
+.Theme2 .contact-me:hover span:nth-child(1)  {
+Left: 100%; 
+ transition: .1s;
+ transition-property: 0s;
+}
+.Theme2 .contact-me span:nth-child(3)
+{
+bottom: 0;
+width: 100%;
+right: -100%; 
+background: linear-gradient (270deg, transparent, rgb(0, 0, 0));
+background-color:rgb(0, 0, 0) ;
+height: 2px;
+} 
+
+.Theme2 .contact-me :hover span:nth-child(3)  {
+right: 100%; 
+ transition: 1s;
+ transition-delay: 0.1s;
+}
+
+.Theme2 .contact-me span:nth-child(2)
+{
+top:-100%;
+width: 2px;
+right: 0; 
+background: linear-gradient (180deg, transparent, rgb(0, 0, 0));
+background-color:rgb(0, 0, 0) ;
+height: 100%;
+} 
+
+.Theme2 .contact-me:hover span:nth-child(2)  {
+    top: 100%; 
+ transition: 1s;
+ transition-delay: 0.1s;
+}
+
+.Theme2 .contact-me span:nth-child(4)
+{
+bottom:-100%;
+width: 2px;
+left: 0; 
+background: linear-gradient (360deg, transparent, rgb(0, 0, 0));
+background-color:rgb(0, 0, 0) ;
+height: 100%;
+} 
+
+.Theme2 .contact-me:hover span:nth-child(4)  {
+bottom: 100%; 
+ transition: 1s;
+ transition-delay: 0.2s;
+} 
+
