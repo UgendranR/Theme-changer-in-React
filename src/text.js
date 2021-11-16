@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React, {useState} from 'react'
 import "./Theme1.css"
 
 
@@ -12,7 +12,7 @@ function Theme() {
       console.log(Theme);
     
     
-      if(Theme=="Theme1"){
+      if(Theme==="Theme1"){
         setTheme("Theme2");
       }
       else{
